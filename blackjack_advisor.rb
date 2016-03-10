@@ -511,16 +511,15 @@ pair_solutions[hash_key] # => value e.g. "H"
 soft_solutions[hash_key]
 hard_solutions[hash_key]
 
+advice = {
+H => "hit"
+S => "stand"
+P = "split"
+Dh = "double if possible, otherwise hit"
+Ds = "double if possible, otherwise stand"
+}
 
-
-"H" = "hit"
-"S" = "stand"
-"P" = "split"
-"Dh" = "double if possible, otherwise hit"
-"Ds" = "double if possible, otherwise stand"
-
-if condition
-    puts "Your optimal move is to #{"stand"}."
+    puts "Your optimal move is to #{advice}."
   end
 end
 
