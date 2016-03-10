@@ -511,6 +511,8 @@ pair_solutions[hash_key] # => value e.g. "H"
 soft_solutions[hash_key]
 hard_solutions[hash_key]
 
+
+
 "H" = "hit"
 "S" = "stand"
 "P" = "split"
